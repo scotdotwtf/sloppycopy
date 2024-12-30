@@ -2,3 +2,6 @@ source/
 target/
 target-test/
 __pycache__/
+builds/
+sloppycopy.exe
+build.txt

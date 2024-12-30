@@ -19,12 +19,12 @@ class MainWindow(QWidget):
         self.setWindowTitle("SLOPPYCOPY")
 
         if sys.platform == "win32":
-            self.setWindowIcon(QIcon("Interface/Icon.ico"))
+            self.setWindowIcon(QIcon("Resources/Icon.ico"))
         else:
-            self.setWindowIcon(QIcon("Interface/Icon.png"))
+            self.setWindowIcon(QIcon("Resources/Icon.png"))
 
         self.logo = QLabel(self)
-        self.logo.setPixmap(QPixmap("Interface/Logo.png"))
+        self.logo.setPixmap(QPixmap("Resources/Logo.png"))
         self.logo.setAlignment(Qt.AlignCenter)
 
         self.source_label = QLabel("Source", self)

@@ -13,6 +13,7 @@ Usually you can just copy a whole directory from one place to another, but when 
 ### How to use?
 #### Easy way (Downloading the prebuilt GUI binary)
 - If you don't know a lot about programming you can [download the app in the .zip file for your platform from releases](https://github.com/scotdotwtf/sloppycopy/releases/tag/Release/Latest) and run it.
+    - Note: For now I haven't created prebuilt binaries for MacOS or Linux. I'll probably do it when it's less weird to do but for now just install python, sorry!
 #### Kinda not really harder way (Using Python)
 - If you have python installed and want to use the interface than just install PySide6 with `pip install pyside6` and then run the program with `py interface.py`.
 - Or if you can use the CLI than run `py sloppycoppy.py`
@@ -25,6 +26,8 @@ If you want more help with it than check the interface.py file for how  I use it
 ### Compatibility
 This should work with Windows, MacOs, or any Linux distro that has Python support. I wrote this on windows and have also tested it on MacOS and everything seemed to work just fine. If you have any problems with it [please create an issue!](https://github.com/scotdotwtf/sloppycopy/issues/new/choose)
 
+### Support
+Wanna support? Fix my crappy code. lol. That's about it <3
 
 ### Showcase
 #### GUI
